@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Webhook Event Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Webhook Event Simulator</h1>
+
+<select id="event">
+  <option value="user.created">user.created</option>
+  <option value="user.updated">user.updated</option>
+  <option value="payment.success">payment.success</option>
+</select>
+
+<button onclick="send()">Send Event</button>
+
+<pre id="output"></pre>
+
+<script src="script.js"></script>
+</body>
+</html>
